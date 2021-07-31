@@ -1,0 +1,26 @@
+{
+  "name": "mvc_techblog",
+  "version": "1.0.0",
+  "description": "Model-View-Controller Tech Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "testy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jczarfeld/MVC_TechBlog.git"
+  },
+  "keywords": [
+    "model",
+    "view",
+    "controller",
+    "tech",
+    "blog"
+  ],
+  "author": "john osterfeld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jczarfeld/MVC_TechBlog/issues"
+  },
+  "homepage": "https://github.com/jczarfeld/MVC_TechBlog#readme"
+}
