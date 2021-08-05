@@ -1,6 +1,9 @@
 {
   "name": "mvc_techblog",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.3.0"
+  },
   "description": "Model-View-Controller Tech Blog",
   "main": "server.js",
   "scripts": {
