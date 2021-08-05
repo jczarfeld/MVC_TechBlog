@@ -2,9 +2,11 @@
   "name": "mvc_techblog",
   "version": "1.0.0",
   "description": "Model-View-Controller Tech Blog",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "testy"
+    "test": "jest",
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,19 @@
   "bugs": {
     "url": "https://github.com/jczarfeld/MVC_TechBlog/issues"
   },
-  "homepage": "https://github.com/jczarfeld/MVC_TechBlog#readme"
+  "homepage": "https://github.com/jczarfeld/MVC_TechBlog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "create-pwa": "^2.3.1",
+    "jest": "^26.0.1"
+  }
 }
